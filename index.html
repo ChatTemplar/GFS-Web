@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="MyGFS">
+    <meta content="Portfolio">
+
+    <title>GFS</title>
+
+    <style>
+        body {
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            font-family: 'Courier New', monospace;
+        }
+        table.center {
+            margin-left: auto;
+            margin-right: auto;
+            border: 4px solid cornflowerblue;
+            padding: 4px;
+            color: dodgerblue;
+        }
+        .container1 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 20px;
+        }
+        .image1 {
+            max-width: 100%;
+            max-height:100%;
+        }
+        p {
+            padding: 50px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>GFS Informatik: Variablen in Javascript</h1>
+
+
+    <p>
+        Variablen sind temporäre Datenspeicher (bis der Browser geschlossen wird) oder verweisen auf Objekte.<br />
+        Sie werden mit dem Schlüsselwort <span style="color: darkred">var</span> deklariert.
+        Eigentlich ist das wie in Mathe, nur dass wir nun auch Strings (Zeichenketten) und HTML-Elemente speichern können.<br />
+    </p>
+
+
+    <img src="Images/Var.jpg" style="width: 700px; "><br><br><br>
+
+
+    <h2 style="color: forestgreen">Deklaration und Wertzuweisung</h2>
+
+
+    <div class="container1">
+
+        <div class="text1">
+            <p>
+                Nachdem Variablen im Scriptbereich deklariert wurden, sind sie öffentlich bekannt und können überall verwendet und verändert werden.<br />
+                Es gibt auch private Variablen, doch dazu später.
+            </p>
+        </div>
+
+        <pre style="text-align: -moz-left"><code><br><br><br>
+            <span style="color: dodgerblue">&lt;script&gt;</span>
+                <span style="color: darkred">var</span> x = 13;
+                <span style="color: darkred">var</span> y = 5;
+                <span style="color: darkred">var</span> text = "Hallo Welt!";<br>
+                <span style="color: darkred">var</span> element = document.getElementById("id") ;
+            <span style="color: dodgerblue">&lt;/script&gt;</span>
+        </code></pre>
+
+    </div>
+
+
+    <h2 style="color: forestgreen">Rechnen mit Variablen</h2><br><br><br>
+
+    <div class="container1">
+
+        <div class="text1">
+            <p>
+                Da ein Computer vor allem rechnet, <br>sind die verschiedenen Rechenoperationen besonders wichtig.<br>
+                Interessant sind der <c>Modulo-Operator</c> <span style="color: darkred">%</span> und <c>Zufallszahlen</c> mit <span style="color: darkred">Math.random()</span>
+            </p>
+        </div>
+
+    <div class="image1">
+        <img src="Images/Var2.jpg" style="width: 600px">
+    </div>
+
+    </div>
+
+
+    <table class="center">
+        <tr>
+            <td>
+                <a href="Quellen.htm">Quellen</a>
+            </td>
+            <td>
+                <a href="https://youtu.be/d1YBv2mWll0?si=QmEN3rI1I1w9e3Ow">Youtube</a>
+            </td>
+            <td>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">SpicyLinks</a>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
